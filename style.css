@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header {
+    background-color: #9FCB98;
+
+}
+
+hr {
+    border: none;
+    border-top: 2px solid black;
+}
+
+header .logotipo {
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+    padding: 10px 0;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #0C0421;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+
+.boas_vindas {
+    display: flex;
+    flex-direction: row;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    background: linear-gradient(to bottom, #9FCB98, #ffffff);
+}
+
+.boas_vindas .b_v,
+.boas_vindas .b_v {
+    margin-right: 60px;
+    width: 35%;
+}
+
+
+.boas_vindas .b_v a {
+    margin-top: 20px;
+    padding: 16px 73px 16px 73px;
+    border-radius: 40px;
+    background-color: #346739;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+
+}
+
+.button {
+    margin-top: 32px;
+}
+
+.sobre,
+.produto {
+    padding: 35px 120px;
+}
+
+.sobre h2 {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 25px 0;
+    color: #346739;
+
+}
+
+.sobre p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    padding: 1rem 0;
+    color: #0C0421;
+}
+
+
+.produto .produto-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.produto .produto-1 .descricao-produto-1 {
+    padding: 30px 0;
+}
+
+.produto .produto-1 .descricao-produto-1 h2 {
+
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 25px 0;
+    color: #346739;
+}
+
+.produto .produto-1 .descricao-produto-1 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    padding: 1rem 0;
+    color: #0C0421;
+}
+
+.produto-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.produto-2 .descricao-produto-2 {
+    padding: 15px 0;
+}
+
+.produto-2 .descricao-produto-2 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    padding: 1rem 0;
+    color: #0C0421;
+}
+
+.produto-2 .descricao-produto-2 h2 {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 25px 0;
+    color: #346739;
+}
+
+.produto-2 .grupo-imagem-produto-2 img {
+    padding: 0 10px;
+}
+
+@media (max-width: 1767px) {
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    .produto .produto-2 {
+
+        flex-direction: column-reverse;
+
+    }
+
+    .produto .produto-1 {
+
+        flex-direction: column;
+
+    }
+    .produto-1 img {
+        width: 500px;
+    }
+
+    .produto .produto-1{
+        align-items: center
+    }
+
+    .produto-2 .descricao-produto-2,
+    .produto-1 .descricao-produto-1 {
+
+        width: 100%;
+    }
+
+    body {
+        margin-left: 0;
+        
+         margin-right: 0;
+    }
+
+
+}
