@@ -281,6 +281,11 @@ header nav ul a:hover{
     margin-top: 10px;
 }
 
+.btn-enviar:hover{
+    background-color: #9FCB98;
+    color: #000;
+}
+
 
 footer {
     background-color: #E8F3D6; /* Mesmo verde do form */
