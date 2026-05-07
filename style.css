@@ -52,6 +52,9 @@ header nav ul a {
     font-size: 14px;
 }
 
+header nav ul a:hover{
+    color:#ffffff;
+}
 
 .boas_vindas {
     display: flex;
@@ -86,6 +89,10 @@ header nav ul a {
     font-weight: bold;
 }
 
+.boas_vindas .button a:hover{
+    background-color: #9FCB98;
+    color: #000;
+}
 .b_img img {
     max-width: 350px;
     border-radius: 200px 200px 200px 200px;
