@@ -65,6 +65,8 @@ Abra o arquivo `index.html` diretamente no navegador.
 
 Protótipo desenvolvido no Figma.
 
+[Link do Figma](https://www.figma.com/design/IO7sPzXeVsG2J3sk4Dm0FM/CicloVerde-Site-Layout?node-id=0-1&p=f)
+
 
 ## 🔗 Integrações
 
